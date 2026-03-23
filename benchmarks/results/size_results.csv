@@ -1,0 +1,22 @@
+category,ciphertext_bytes,name,nist_security_level,pq_safe,private_key_bytes,public_key_bytes,shared_secret_bytes,signature_bytes,type
+Signature + KEM,256,RSA-2048,N/A,False,1192,294,,256,classical
+Signature + KEM,512,RSA-4096,N/A,False,2348,550,,512,classical
+Signature,,ECDSA P-256,N/A,False,138,91,,71,classical
+Signature,,ECDSA P-384,N/A,False,185,120,,104,classical
+Signature,,ECDSA P-521,N/A,False,241,158,,139,classical
+Key Exchange,32,ECDH P-256,N/A,False,138,91,,,classical
+Key Exchange,48,ECDH P-384,N/A,False,185,120,,,classical
+Key Exchange,66,ECDH P-521,N/A,False,241,158,,,classical
+Key Exchange,768,Kyber512,1,True,1632,800,32,,post_quantum
+Key Exchange,1088,Kyber768,3,True,2400,1184,32,,post_quantum
+Key Exchange,1568,Kyber1024,5,True,3168,1568,32,,post_quantum
+Key Exchange,699,NTRU-HPS-2048-509,1,True,935,699,32,,post_quantum
+Key Exchange,930,NTRU-HPS-2048-677,3,True,1234,930,32,,post_quantum
+Key Exchange,1230,NTRU-HPS-4096-821,5,True,1590,1230,32,,post_quantum
+Signature,,ML-DSA-44,2,True,2560,1312,,2420,post_quantum
+Signature,,ML-DSA-65,3,True,4032,1952,,3309,post_quantum
+Signature,,ML-DSA-87,5,True,4896,2592,,4627,post_quantum
+Signature,,Falcon-512,1,True,1281,897,,656,post_quantum
+Signature,,Falcon-1024,5,True,2305,1793,,1268,post_quantum
+Signature,,SLH_DSA_PURE_SHA2_128F,1,True,64,32,,17088,post_quantum
+Signature,,SLH_DSA_PURE_SHA2_256F,5,True,128,64,,49856,post_quantum
